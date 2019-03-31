@@ -10,13 +10,12 @@
     
     <title>Document</title>
 </head>
-<body> 
+<body onload="getword()"> 
     <div class="jumbotron">
         <h1 class="display-3">Word Guess Game</h1>
         <p class="lead">Guess a word</p>
         <hr class="my-2">
         <p class="lead">
-            <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Start Game</a>
         </p>
     </div>
     <div class="card">
@@ -46,11 +45,6 @@
                     <span id="lettersguessed" class="badge badge-secondary badge-pill"></span>
                 </li>
     </ul>
-    <button class="btn">
-            Notification <span class="badge badge-primary">  <script>  document.write(getword()) </script> </span>
-    </button>
-    
-    
 </body>
 
 </html>
